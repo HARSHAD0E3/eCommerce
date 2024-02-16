@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 import { PiShoppingCartBold } from "react-icons/pi";
-import { AiFillStar } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { cartItemActions } from "../store/cartItemSlice";
 import { orderSummaryActions } from "../store/orderSummarySlice";
+import StarRatings from "react-star-ratings";
 
 const Item = ({ items }) => {
   const dispatch = useDispatch();
@@ -20,7 +20,12 @@ const Item = ({ items }) => {
         quantity: 1,
       })
     );
-    dispatch(orderSummaryActions.incrementTotal({quantity: 1, price:items.current_price}))
+    dispatch(
+      orderSummaryActions.incrementTotal({
+        quantity: 1,
+        price: items.current_price,
+      })
+    );
   };
 
   return (
@@ -56,13 +61,15 @@ const Item = ({ items }) => {
             </span>
           </p>
           <div className="flex items-center">
-            <AiFillStar className="h-5 w-5 text-yellow-300" />
-            <AiFillStar className="h-5 w-5 text-yellow-300" />
-            <AiFillStar className="h-5 w-5 text-yellow-300" />
-            <AiFillStar className="h-5 w-5 text-yellow-300" />
-            <AiFillStar className="h-5 w-5 text-yellow-300" />
+            <StarRatings
+              rating={items.rating.stars}
+              starDimension="18px"
+              starSpacing="0px"
+              starRatedColor="yellow"
+            />
+
             <span className="mr-2 ml-3 rounded bg-yellow-200 px-2.5 py-0.5 text-xs font-semibold">
-              {items.rating.stars}
+              {items.rating.count}
             </span>
           </div>
         </div>

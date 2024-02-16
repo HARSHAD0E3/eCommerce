@@ -3,8 +3,8 @@
     {
       "id": "001",
       "image": "images/Item1.webp",
-      "company": "Carlton London",
-      "item_name": "Rhodium-Plated CZ Floral Studs",
+      "company": "Carlsiton London",
+      "item_name": "Men's Oversized Half Sleeve Matty  T-Shirt",
       "original_price": 1045,
       "current_price": 606,
       "discount_percentage": 42,
@@ -15,8 +15,8 @@
     {
       "id": "002",
       "image": "images/item2.webp",
-      "company": "CUKOO",
-      "item_name": "Women Padded Halter Neck Swimming Dress",
+      "company": "CUOKOO",
+      "item_name": "Printed Oversized Round Neck T-Shirt",
       "original_price": 2599,
       "current_price": 1507,
       "discount_percentage": 42,
@@ -27,8 +27,8 @@
     {
       "id": "003",
       "image": "images/item3.webp",
-      "company": "NUEVOSDAMAS",
-      "item_name": "Women Red & White Printed A-Line Knee-Length Skirts",
+      "company": "NUEVOOSDAMAS",
+      "item_name": "Black Printed T-Shirt",
       "original_price": 1599,
       "current_price": 495,
       "discount_percentage": 69,
@@ -39,8 +39,8 @@
     {
       "id": "004",
       "image": "images/item4.webp",
-      "company": "ADIDAS",
-      "item_name": "Indian Cricket ODI Jersey",
+      "company": "ADIIDAS",
+      "item_name": "Mens Never Settle Cotton Sweatshirt",
       "original_price": 999,
       "current_price": 999,
       "discount_percentage": 0,
@@ -51,7 +51,7 @@
     {
       "id": "005",
       "image": "images/item5.webp",
-      "company": "Roadster",
+      "company": "Roadsterrr",
       "item_name": "Pure Cotton T-shirt",
       "original_price": 1399,
       "current_price": 489,
@@ -63,8 +63,8 @@
     {
       "id": "006",
       "image": "images/item6.webp",
-      "company": "Nike",
-      "item_name": "Men ReactX Running Shoes",
+      "company": "Nikeee",
+      "item_name": "Men ReactX long sleeve TShirt",
       "original_price": 1999,
       "current_price": 1499,
       "discount_percentage": 0,
@@ -75,8 +75,8 @@
     {
       "id": "007",
       "image": "images/item2.webp",
-      "company": "The Indian Garage Co",
-      "item_name": "Men Slim Fit Regular Shorts",
+      "company": "The Indian Garage Co. T-Shirt",
+      "item_name": "Men Slim Fit Regular T-Shirt",
       "original_price": 1599,
       "current_price": 639,
       "discount_percentage": 60,
@@ -85,7 +85,7 @@
     {
       "id": "008",
       "image": "images/item3.webp",
-      "company": "Nivea",
+      "company": "Nivoea",
       "item_name": "Men Fresh Deodrant 150ml",
       "original_price": 285,
       "current_price": 142,
