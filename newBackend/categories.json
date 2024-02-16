@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "id": "0001",
+      "image": "images/jackets.webp",
+      "category_name": "Jackets"
+    },
+    {
+      "id": "0002",
+      "image": "images/supima.webp",
+      "category_name": "Supima"
+    },
+    {
+      "id": "0003",
+      "image": "images/sweatshirts.webp",
+      "category_name": "Sweatshirts"
+    },
+    {
+      "id": "0004",
+      "image": "images/polo.webp",
+      "category_name": "Polo"
+    },
+    {
+      "id": "0005",
+      "image": "images/joggers.webp",
+      "category_name": "Joggers"
+    },
+    {
+      "id": "0006",
+      "image": "images/tshirts.webp",
+      "category_name": "T-Shirts"
+    }
+  ]
+}

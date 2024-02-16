@@ -1,0 +1,16 @@
+{
+  "name": "infinity8_backend",
+  "version": "1.0.0",
+  "description": "sample Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
